@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Hello Github</title>
+	</head>
+	<body>
+		<h3>Hello, <span th:text="${gitHubUserProfile.name}">Some User</span>!</h3>
+
+		<p>Some info I found on GitHub about you:</p>
+		
+		<ul>
+			<li>Login: <span th:text="${gitHubUserProfile.login}">rapido</span></li>		
+			<li>Company: <span th:text="${gitHubUserProfile.company}">Acme</span></li>		
+			<li>Location: <span th:text="${gitHubUserProfile.location}">The Moon</span></li>	
+		</ul>
+		
+	</body>
+</html>
